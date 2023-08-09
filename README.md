@@ -42,13 +42,19 @@ virus yang mendekat ke planet.
 ## Persyaratan
 
 Untuk bermain permainan ini, Anda hanya perlu perangkat dengan browser web yang dapat menjalankan JavaScript.
-seperti google chrome
 
 ## Cara Menjalankan
 
 1. Buka file `index.html` di browser web Anda.
 2. Klik tombol "Mulai" untuk memulai permainan.
 
-## Kontribusi
+**Catatan:**
+Proyek ini dibuat dengan mengamati, meniru, dan memodifikasi kode sumber asli. Sumber kode asli dapat ditemukan di [URL_Sumber_Kode_Anda](URL_Sumber_Kode_Anda). Perubahan dan modifikasi telah diterapkan pada kode asli untuk mencapai hasil yang diinginkan dalam proyek ini.
 
-Jika Anda ingin berkontribusi pada permainan ini, Anda dapat melakukan fork repositori ini, membuat perubahan, dan mengirimkan pull request.
+Segala hak cipta dan kredit untuk sumber kode asli tetap melekat pada pemilik aslinya. Proyek ini tidak bermaksud untuk mengklaim kepemilikan atau hak cipta atas kode asli, melainkan untuk tujuan pembelajaran dan demonstrasi.
+
+Jika Anda adalah pemilik sumber kode asli dan memiliki pertanyaan atau masalah terkait penggunaan kode Anda dalam proyek ini, silakan hubungi kami untuk membahas hal tersebut.
+
+Terima kasih kepada komunitas pengembang yang telah berkontribusi dalam pembuatan proyek ini melalui berbagai sumber daya dan dukungan.
+
+
