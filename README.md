@@ -39,8 +39,6 @@ virus yang mendekat ke planet.
 - Lihat skor akhir dan rekam skor tertinggi.
 - Mulai ulang permainan dengan mudah.
 
-## Persyaratan
-
 Untuk bermain permainan ini, Anda hanya perlu perangkat dengan browser web yang dapat menjalankan JavaScript.
 Disarankan untuk bermain di FULL SCREEN
 
@@ -49,9 +47,9 @@ Disarankan untuk bermain di FULL SCREEN
 1. Buka file `index.html` di browser web Anda.
 2. Klik tombol "Mulai" untuk memulai permainan.
 
-## Catatan 
+## 📝 Catatan 
 Proyek ini dibuat dengan mengamati, meniru, dan memodifikasi kode sumber asli. Sumber kode asli dapat ditemukan di 
-➡️[Marc López Ávila](https://codepen.io/Loopez10)
+[Marc López Ávila](https://codepen.io/Loopez10)
 
 Perubahan dan modifikasi telah diterapkan pada kode asli untuk mencapai hasil yang diinginkan dalam proyek ini.
 Segala hak cipta dan kredit untuk sumber kode asli tetap melekat pada pemilik aslinya.
