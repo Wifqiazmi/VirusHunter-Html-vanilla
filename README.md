@@ -19,7 +19,7 @@ virus yang mendekat ke planet.
 
 ![Unigine Desktop Demo](./Readme-img/Mockup.png "Desktop Demo")
 
-## Cara Bermain
+## 🎮 Cara Bermain
 
 1. Saat halaman dimuat, klik tombol "Mulai" untuk memulai permainan.
 2. Anda akan melihat lingkaran planet yang dapat Anda atur dengan menggerakkan kursor.
@@ -29,7 +29,7 @@ virus yang mendekat ke planet.
 6. Setelah permainan berakhir, Anda dapat melihat skor akhir dan skor tertinggi yang telah Anda capai.
 7. Klik tombol "Kembali" untuk memulai permainan kembali.
 
-## Fitur Utama
+## ⭐ Fitur Utama
 
 - Kendalikan lingkaran planet dengan menggerakkan kursor.
 - Tembak virus dengan mengklik dalam lingkaran permainan.
@@ -42,7 +42,7 @@ virus yang mendekat ke planet.
 Untuk bermain permainan ini, Anda hanya perlu perangkat dengan browser web yang dapat menjalankan JavaScript.
 Disarankan untuk bermain di FULL SCREEN
 
-## Cara Menjalankan
+## 🚀 Cara Menjalankan
 
 1. Buka file `index.html` di browser web Anda.
 2. Klik tombol "Mulai" untuk memulai permainan.
