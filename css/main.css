@@ -1,0 +1,191 @@
+html {
+    overflow: hidden;
+    height: 100%;
+    background: #191919;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#canvas {
+    background: url('../img/Backround.png') no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#canvas.playing {
+    cursor: url('../img/aim_white.png') 17.5 17.5,auto !important;
+    cursor: crosshair;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/Backround3.png') no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.content {
+  position: relative;
+}
+
+.content h2 {
+  color: #fff;
+  font-size: 7.5em;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #C72329;
+}
+
+.content h2:nth-child(2) {
+  color: #E0585D;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%, 100% {
+    clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+  }
+  50% {
+    clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+  }
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px; 
+    margin-bottom: 50px; 
+}
+
+.buttons button {
+    font-size: 24px;
+    font-family: "Poppins",;
+    padding: 10px 70px;
+    background-color: transparent; 
+    color: #fff;
+    border: 1px solid #C72329; 
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 20px; 
+    width: 350px; 
+    text-align: center; 
+    transition: background-color 0.3s; 
+}
+
+.buttons button:last-child {
+    margin-bottom: 0;
+}
+
+.buttons button:hover {
+    background-color: #C72329; 
+    
+}
+
+
+/* Styling card cara bermain */
+.how-to-play-card, .high-score-card{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 550px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  z-index: 999;
+}
+
+.how-to-play-card h3, .high-score-card h3{
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.how-to-play-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.how-to-play-card li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000;
+}
+.how-to-play-card p, .high-score-card h3{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.how-to-play-card button, .high-score-card button{
+  font-size: 16px;
+  padding: 10px 220px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.how-to-play-card button:hover, .high-score-card button:hover{
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling footer */
+.site-footer {
+  background-color: transparent;
+  text-align: center;
+  padding: 5px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.site-footer .copyright-text {
+  color: #737373;
+  margin-top: 15px;
+}
+.site-footer .copyright-text a {
+  color: #737373;
+  text-decoration: none;
+}
+
+.site-footer .copyright-text a:hover {
+  color: #fff;
+}

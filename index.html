@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virus Hunter</title>
+    <link rel="shortcut icon" type="icon" href="./img/aim_white.png">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<audio id="shootSound">
+    <source src="./sound/Suara Tembakan.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="gameOverSound" src="./sound/Game Over Spongebob.mp3">
+  </audio>
+  
+  <audio id="backgroundMusic" src="./sound/Backsound - Spongebob.mp3"></audio>
+
+
+<body>
+    <div id="landingPage">
+        <section>
+            <div class="content">
+                <h2>VirusHunter</h2>
+                <h2>VirusHunter</h2>
+            </div>
+        </section>
+        <div class="buttons">
+            <button id="startButton">Mulai Permainan</button>
+            <button id="highScoreButton" onclick="showHighScore()">Score Tertinggi</button>
+            <button id="howToPlayButton" onclick="showHowToPlay()">Cara Bermain</button>
+        </div>
+        
+        <div class="how-to-play-card" id="howToPlayCard">
+            <h3>Cara Bermain ?</h3>
+            <ul>
+                <li>1). Klik "Mulai Permainan" untuk memulai </li>
+                <li>2). Gerakkan kursor untuk mengatur lingkaran planet</li>
+                <li>3). Klik dalam lingkaran untuk menembak virus</li>
+                <li>4). Hindari virus mencapai tengah planet atau nyawa berkurang</li>
+                <li>5). Permainan berakhir ketika nyawa habis</li>
+                <li>6). Klik "Kembali" untuk ke halaman awal</li>
+            </ul>
+            <button onclick="hideHowToPlay()">Tutup</button>
+        </div>
+        
+        <div class="high-score-card" id="highScoreCard">
+            <h3>SCORE</h3>
+            <p id="highScoreValue">SCORE TERTINGGI: 0</p>
+            <button onclick="hideHighScore()">Tutup</button>
+        </div>
+              
+    </div>
+
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+           <a href="https://github.com/Wifqiazmi">Wifqiazmi</a>
+              </p>
+            </div>
+  </footer>
+    
+    <canvas id="canvas" style="display: none;"></canvas>
+    <script src="./js/main.js"></script>
+</body>
+</html>
