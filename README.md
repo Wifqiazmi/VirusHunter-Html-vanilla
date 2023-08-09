@@ -42,8 +42,7 @@ virus yang mendekat ke planet.
 ## Persyaratan
 
 Untuk bermain permainan ini, Anda hanya perlu perangkat dengan browser web yang dapat menjalankan JavaScript.
-**Note:**
-Disarankan untuk bermain di FULL PAGE VIEW / FULL SCREEN
+Disarankan untuk bermain di FULL SCREEN
 
 ## Cara Menjalankan
 
@@ -52,7 +51,7 @@ Disarankan untuk bermain di FULL PAGE VIEW / FULL SCREEN
 
 ## Catatan 
 Proyek ini dibuat dengan mengamati, meniru, dan memodifikasi kode sumber asli. Sumber kode asli dapat ditemukan di 
-➡️ by [Marc López Ávila](https://codepen.io/Loopez10). 
+➡️[Marc López Ávila](https://codepen.io/Loopez10)
 
 Perubahan dan modifikasi telah diterapkan pada kode asli untuk mencapai hasil yang diinginkan dalam proyek ini.
 Segala hak cipta dan kredit untuk sumber kode asli tetap melekat pada pemilik aslinya.
