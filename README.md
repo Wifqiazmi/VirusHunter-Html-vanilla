@@ -8,7 +8,7 @@
 Virus Shooter Game adalah permainan sederhana berbasis web yang menguji ketangkasan dan reaksi pemain dalam menghancurkan 
 virus yang mendekat ke planet.
 
- <br /> Game ini di buat dengan HTML, CSS, VANILA, dan JavaScript </ br>
+ <br /> Game ini di buat dengan HTML, CSS, VANILA, dan JavaScript 
 
 
 </div>
