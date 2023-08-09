@@ -5,9 +5,11 @@
 
   <h2 align="center">Virus Hunter Game</h2>
 
-Virus Shooter Game adalah permainan sederhana berbasis web yang menguji ketangkasan dan reaksi pemain dalam menghancurkan virus yang mendekat ke planet.
+Virus Shooter Game adalah permainan sederhana berbasis web yang menguji ketangkasan dan reaksi pemain dalam menghancurkan 
+virus yang mendekat ke planet.
 
-  <a href="https://codingstella.github.io/Gaming-website/"><strong>➥ Live Demo</strong></a>
+ <br /> Game ini di buat dengan HTML, CSS, VANILA, dan JavaScript </ br>
+
 
 </div>
 
@@ -40,6 +42,7 @@ Virus Shooter Game adalah permainan sederhana berbasis web yang menguji ketangka
 ## Persyaratan
 
 Untuk bermain permainan ini, Anda hanya perlu perangkat dengan browser web yang dapat menjalankan JavaScript.
+seperti google chrome
 
 ## Cara Menjalankan
 
