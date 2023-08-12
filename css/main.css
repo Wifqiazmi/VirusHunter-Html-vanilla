@@ -10,14 +10,14 @@ body {
 }
 
 #canvas {
-    background: url('./img/Backround.png') no-repeat;
+    background: url('../img/Backround.png') no-repeat;
     width: 100%;
     height: 100%;
     background-size: cover;
 }
 
 #canvas.playing {
-    cursor: url('./img/aim_white.png') 17.5 17.5,auto !important;
+    cursor: url('../img/aim_white.png') 17.5 17.5,auto !important;
     cursor: crosshair;
 }
 
